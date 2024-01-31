@@ -149,18 +149,12 @@ STATICFILES_DIRS = (
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
-# SMTP服务器
-EMAIL_HOST = 'your smtp'
-# 邮箱名
-EMAIL_HOST_USER = 'your email'
-# 邮箱密码
-EMAIL_HOST_PASSWORD = 'your password'
-# 发送邮件的端口
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_HOST_USER = '2501800430@qq.com'
+EMAIL_HOST_PASSWORD = 'tdfdemoqyackdjfa'
 EMAIL_PORT = 25
-# 是否使用 TLS
 EMAIL_USE_TLS = True
-# 默认的发件人
-DEFAULT_FROM_EMAIL = 'your email'
+DEFAULT_FROM_EMAIL = 'lianyu的博客 <2501800430@qq.com>'
 
 # 媒体文件地址
 MEDIA_URL = '/media/'
